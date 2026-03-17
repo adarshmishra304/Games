@@ -1,16 +1,139 @@
-# games
+# 🎮 Game Hub App (Flutter)
 
-A new Flutter project.
+A simple and fun **Flutter Game Hub App** that includes multiple mini-games in one place. Currently, it features:
 
-## Getting Started
+* 🧩 **8 Puzzle Game**
+* ❌⭕ **Tic Tac Toe**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🧩 8 Puzzle Game
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Random solvable puzzle generation
+* Tile movement with valid checks
+* Move counter
+* Win detection with sound effect 🎉
+* Restart option
+
+### ❌⭕ Tic Tac Toe
+
+* Two-player mode (X vs O)
+* Win & draw detection
+* Turn indicator
+* Restart option
+
+---
+
+## 📱 Screens
+
+* Home Screen (Game selection)
+* Puzzle Game Screen
+* Tic Tac Toe Screen
+
+---
+
+## 🛠️ Tech Stack
+
+* **Flutter**
+* **Dart**
+* **Material UI**
+* **audioplayers package** (for sound effects)
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│── main.dart
+│
+├── screens/
+│   ├── puzzle_screen.dart
+│   └── tictactoe_screen.dart
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/adarshmishra304/Calculator-App.git
+```
+
+2. Navigate to the project:
+
+```bash
+cd Calculator-App
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the app:
+
+```bash
+flutter run
+```
+
+---
+
+## 🔊 Assets Setup (Important)
+
+Make sure you add your sound file:
+
+```
+assets/sounds/win.mp3
+```
+
+And update your `pubspec.yaml`:
+
+```yaml
+flutter:
+  assets:
+    - assets/sounds/win.mp3
+```
+
+---
+
+## 🎯 Future Improvements
+
+* Add more games (Snake, Sudoku, Memory Game)
+* Add AI opponent for Tic Tac Toe 🤖
+* Improve UI/UX with animations
+* Dark mode support 🌙
+* Score tracking system
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch
+3. Make changes
+4. Submit a pull request
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Adarsh Mishra**
+GitHub: https://github.com/adarshmishra304
+
+---
+
+⭐ If you like this project, don’t forget to **star the repo!**
